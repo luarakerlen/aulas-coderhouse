@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <label for="primeiro_nome">Nome:</label>
+      <input name="primeiro_nome" type="text" placeholder="Digite seu e-mail" />
+      <textarea rows="5" cols="30" placeholder="Escreva uma descrição"></textarea>
+    
+      <button type="reset">Resetar</button>
+      <button type="submit">Enviar</button>
+      <button type="button">Ir para outra página</button>
+    </fieldset>
+
+    <br><br>
+    <span>masculino</span>
+    <input type="radio" name="genero" value="masculino">
+
+    <span>feminino</span>
+    <input type="radio" name="genero" value="feminino">
+  
+    <span>outro</span>
+    <input type="radio" name="genero" value="outro">
+
+    <br><br>
+
+    <span>Aceito os termos e condições</span>
+    <input type="checkbox" name="termos" value="verdadeiro">
+
+    <br><br>
+    <fieldset>
+      <legend>Conhecimento técnico</legend>
+      <h6>Selecione as linguagens que você possui conhecimento</h6>
+      <span>Javascript</span>
+      <input type="checkbox" name="linguagens" value="javascript">
+    
+      <span>Java</span>
+      <input type="checkbox" name="linguagens" value="java">
+
+      <span>C++</span>
+      <input type="checkbox" name="linguagens" value="c++">
+    </fieldset>
+
+    <br><br>
+
+    <select name="tamanho">
+      <option value="pp">PP</option>
+      <option value="p">P</option>
+      <option value="m" selected>M</option>
+      <option value="g">G</option>
+      <option value="gg">GG</option>
+    </select>
+  </form>
+</body>
+</html>

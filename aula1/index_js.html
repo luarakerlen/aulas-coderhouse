@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Jogo sim ou não</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Aceita sair comigo?</h1>
+			<div class="content">
+				<button id="yesButton" onclick="accept()">Sim</button>
+				<button id="noButton" onmouseover="change()">Não</button>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			function accept() {
+				alert('Passo aí sábado às 18:00');
+			}
+
+			function change() {
+				const noButton = document.getElementById('noButton');
+				
+        const randomX = Math.floor(Math.random() * window.screen.width);
+        const randomY = Math.floor(Math.random() * window.screen.height);
+				
+        noButton.style.left = `${randomX}px`;
+        noButton.style.top = `${randomY}px`;
+			}
+		</script>
+	</body>
+</html>

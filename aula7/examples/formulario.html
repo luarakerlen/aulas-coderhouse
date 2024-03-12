@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Dados pessoais</legend>
+				<label for="nome">Digite seu nome: </label>
+				<input type="" name="nome" placeholder="Nome" />
+				<label for="mensagem">Deixe sua mensagem:</label>
+				<textarea
+					name="mensagem"
+					placeholder="Digite sua mensagem"
+					cols="30"
+					rows="10"
+				></textarea>
+
+				<div>
+					<label for="genero">Gênero</label>
+					<span>masculino</span>
+					<input type="radio" name="genero" value="masculino" />
+					<span>feminino</span>
+					<input type="radio" name="genero" value="feminino" />
+					<span>outro</span>
+					<input type="radio" name="genero" value="outro" />
+				</div>
+			</fieldset>
+
+			<fieldset>
+        <legend>Dados diversos</legend>
+				<div>
+					<label for="estudando">o que você está estudando?</label>
+					<span>HTML</span>
+					<input type="checkbox" name="estudando" value="HTML" />
+					<span>CSS</span>
+					<input type="checkbox" name="estudando" value="CSS" />
+					<span>JavaScript</span>
+					<input type="checkbox" name="estudando" value="JavaScript" />
+				</div>
+
+				<div>
+					<label for="tamanhos">Escolha o tamanho</label>
+					<select name="tamanhos">
+						<option value="PP">PP</option>
+						<option value="P">P</option>
+						<option value="M" selected>M</option>
+						<option value="G">G</option>
+						<option value="GG">GG</option>
+					</select>
+				</div>
+			</fieldset>
+
+			<button title="Botão de enviar">Enviar</button>
+		</form>
+	</body>
+</html>
