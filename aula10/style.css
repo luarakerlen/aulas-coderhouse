@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background-color: black;
+}
+
+h1 {
+  color: green;
+}
+
+p {
+  color: red;
+  background-color: green;
+}
+
+main {
+  color: purple;
+}
+
+main div h2 {
+  color: blue;
+}
+
+.textoVermelho {
+  color: red;
+}
+
+.textoGrande {
+  font-size: 36px;
+}
+
+#textoPrincipal {
+  color: yellow;
+  background-color: purple;
+}
+
+#textoPrincipal {
+  color: pink;
+}
+
+.textoAzul {
+  color: blue !important;
+  font-size: 24px;
+}
