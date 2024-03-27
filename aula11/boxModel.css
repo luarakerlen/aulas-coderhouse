@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.divVazia {
+  background-color: red;
+  height: 100px;
+  margin-bottom: 30px;
+  border: solid 5px black;
+  border-top: dotted 2px blue;
+  border-radius: 8px;
+}
+
+.divRedonda {
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.divPrincipal {
+  background-color: green;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+button {
+  /* width: 64px;
+  height: 32px; */
+  padding: 4px 8px;
+}
+
+#botao1 {
+  margin-right: 10px;
+}
+
+#botao2 {
+  margin-left: 15px;
+}
+
+p {
+  background-color: blue;
+  margin: 5px 0;
+  padding: 5px;
+}
