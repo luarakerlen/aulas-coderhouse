@@ -76,3 +76,28 @@ input[type="email"]:valid {
 input:required {
   background-color: orange;
 }
+
+input::placeholder {
+  font-size: 12px;
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.paragrafo-especial::first-letter {
+  color: red;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paragrafo-especial::first-line {
+  background-color: yellow;
+}
+
+.paragrafo-especial::selection {
+  background-color: blue;
+  color: pink;
+}
+
+::marker {
+  color: blue;
+}
