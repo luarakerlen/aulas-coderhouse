@@ -5,6 +5,19 @@ div {
   display: inline-block;
 }
 
+.pergunta {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.kahoot {
+  background-image: radial-gradient(red, yellow, blue);
+  border-right: solid 5px black;
+  border-bottom: solid 5px black;
+  transform: rotate(45deg);
+}
+
 .gradiente-linear {
   background-image: linear-gradient(to bottom, red, yellow, blue);
 }
