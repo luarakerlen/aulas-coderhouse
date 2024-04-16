@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+}
+
+.grid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+
+  gap: 16px;
+}
+
+#filho1 {
+  background-color: red;
+}
+
+#filho2 {
+  background-color: blue;
+}
+
+#filho3 {
+  background-color: yellow;
+}
+
+#filho4 {
+  background-color: pink;
+}
