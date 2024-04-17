@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+.grade {
+  display: grid;
+  height: 300px;
+  background-color: pink;
+
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(2, 100px);
+
+  justify-content: center;
+  align-content: center;
+
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+div:not(.grade) {
+  background-color: red;
+}
+
+#filho4 {
+  justify-self: center;
+  align-self: center;
+}

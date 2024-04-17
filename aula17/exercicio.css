@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+#grade {
+  height: 100vh;
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "nav main"
+    "nav footer"
+  ;
+
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 100px 1fr 50px;
+
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+header {
+  grid-area: header;
+  background-color: red;
+}
+
+nav {
+  grid-area: nav;
+  background-color: green;
+}
+
+main {
+  grid-area: main;
+  background-color: orange;
+}
+
+footer {
+  grid-area: footer;
+  background-color: aqua;
+}
