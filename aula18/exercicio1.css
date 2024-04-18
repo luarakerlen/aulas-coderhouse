@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+header {
+  grid-area: header;
+  background-color: red;
+}
+
+main {
+  grid-area: main;
+  background-color: orange;
+}
+
+aside {
+  grid-area: aside;
+  background-color: yellow;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+
+  grid-template-areas: 
+    "header"
+    "main"
+    "aside"
+  ;
+}
+
+@media only screen and (min-width: 769px) {
+  .container {
+    grid-template-columns: 1fr 30%;
+    grid-template-rows: 100px 1fr;
+
+    grid-template-areas: 
+      "header header"
+      "main aside"
+    ;
+  }
+}
